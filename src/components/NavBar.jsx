@@ -29,7 +29,7 @@ export default function NavBar({ activeTab, setActiveTab }) {
             <p className="text-sm font-black text-white leading-none tracking-wide uppercase">
               <span className="text-emerald-400">Odyssey</span> × <span className="text-teal-400">Sigma</span>
             </p>
-            <p className="text-xs text-gray-400 font-medium">Kribi 2025 · CDPE</p>
+            <p className="text-xs text-gray-400 font-medium">Kribi 2026 · CDPE</p>
           </div>
         </button>
 
