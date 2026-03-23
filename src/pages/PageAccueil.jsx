@@ -133,7 +133,7 @@ export default function PageAccueil({ setActiveTab, spotsLeft, total }) {
 
             <div className={`flex flex-wrap gap-3 mb-10 transition-all duration-1000 delay-400 ${heroLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
               {[
-                { icon: '📅', text: '14 – 17 Mai 2025' },
+                { icon: '📅', text: '14 – 17 Mai 2026' },
                 { icon: '⏱️', text: '4 jours / 3 nuits' },
                 { icon: '💰', text: '60 000 FCFA' },
                 { icon: '👥', text: '100 places seulement' },
@@ -390,10 +390,10 @@ export default function PageAccueil({ setActiveTab, spotsLeft, total }) {
             <span className="text-2xl animate-wave inline-block">🌴</span>
             <div>
               <p className="text-white font-black text-sm">Odyssey × Sigma</p>
-              <p className="text-gray-500 text-xs">Université CDPE · Voyage Kribi 2025</p>
+              <p className="text-gray-500 text-xs">Université CDPE · Voyage Kribi 2026</p>
             </div>
           </div>
-          <p className="text-gray-600 text-xs text-center">© 2025 — Voyage d'Études · Kribi, Cameroun · 14–17 Mai 2025</p>
+          <p className="text-gray-600 text-xs text-center">© 2026 — Voyage d'Études · Kribi, Cameroun · 14–17 Mai 2026</p>
           <div className="flex items-center gap-4 text-gray-500 text-xs">
             <span>📞 694 881 471</span>
             <span>•</span>

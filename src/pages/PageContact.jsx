@@ -151,7 +151,7 @@ export default function PageContact() {
             {/* Recap box */}
             <div className="gradient-animate rounded-3xl p-7 text-center relative overflow-hidden">
               <div className="relative z-10">
-                <p className="text-white font-black text-2xl mb-1">Voyage Kribi 2025</p>
+                <p className="text-white font-black text-2xl mb-1">Voyage Kribi 2026</p>
                 <p className="text-emerald-200 text-sm mb-5">Organisé par Odyssey × Sigma · Université CDPE</p>
                 <div className="grid grid-cols-3 gap-3">
                   {[
@@ -212,7 +212,7 @@ export default function PageContact() {
       </div>
 
       <footer className="text-center py-8 text-gray-700 text-xs border-t border-white/5">
-        © 2025 — Odyssey × Sigma · Université CDPE · Voyage Kribi
+        © 2026 — Odyssey × Sigma · Université CDPE · Voyage Kribi
       </footer>
     </div>
   )
