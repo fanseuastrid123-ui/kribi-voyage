@@ -184,7 +184,7 @@ export default function PageProgramme({ setActiveTab }) {
         >
           <span className="inline-flex items-center gap-2 bg-emerald-500/20 border border-emerald-500/35 text-emerald-300 text-xs font-bold px-4 py-1.5 rounded-full mb-5 uppercase tracking-widest">
             <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-            14 – 17 Mai 2025
+            14 – 17 Mai 2026
           </span>
           <h1 className="text-4xl md:text-5xl font-black text-white mb-3">
             Programme du Voyage
@@ -242,7 +242,7 @@ export default function PageProgramme({ setActiveTab }) {
       </div>
 
       <footer className="text-center py-8 text-gray-700 text-xs border-t border-white/5">
-        © 2025 — Odyssey × Sigma · Université CDPE · Kribi, Cameroun
+        © 2026 — Odyssey × Sigma · Université CDPE · Kribi, Cameroun
       </footer>
     </div>
   )
