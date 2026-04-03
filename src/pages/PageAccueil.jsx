@@ -20,7 +20,7 @@ const GALLERY = [
 ]
 
 const STATS = [
-  { value: '150', label: 'Places disponibles',  color: 'text-emerald-400' },
+  { value: '100', label: 'Places disponibles',  color: 'text-emerald-400' },
   { value: '4',   label: 'Jours d\'aventure',   color: 'text-cyan-400'    },
   { value: '60K', label: 'FCFA par étudiant',   color: 'text-amber-400'   },
   { value: '1',   label: 'Expérience unique',   color: 'text-pink-400'    },
@@ -65,7 +65,7 @@ function AnimSection({ children, className = '', delay = 0 }) {
 
 export default function PageAccueil({ setActiveTab, spotsLeft, total }) {
   const filled = total - spotsLeft
-  const pc    = Math.round((filled / total) * 150)
+  const pc    = Math.round((filled / total) * 100)
   const [activeImg,  setActiveImg]  = useState(0)
   const [heroLoaded, setHeroLoaded] = useState(false)
 
@@ -136,7 +136,7 @@ export default function PageAccueil({ setActiveTab, spotsLeft, total }) {
                 { icon: '📅', text: '14 – 17 Mai 2026' },
                 { icon: '⏱️', text: '4 jours / 3 nuits' },
                 { icon: '💰', text: '60 000 FCFA' },
-                { icon: '👥', text: '150 places seulement' },
+                { icon: '👥', text: '100 places seulement' },
               ].map((p) => (
                 <span key={p.text} className="flex items-center gap-2 bg-white/8 border border-white/15 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-md">
                   {p.icon} {p.text}
