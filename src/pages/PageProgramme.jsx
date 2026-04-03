@@ -230,7 +230,7 @@ export default function PageProgramme({ setActiveTab }) {
         {setActiveTab && (
           <div className="gradient-animate rounded-3xl p-8 text-center">
             <h3 className="text-2xl font-black text-white mb-3">Prêt à vivre l'aventure ?</h3>
-            <p className="text-emerald-200 text-sm mb-6">Seulement 100 places disponibles · 60 000 FCFA</p>
+            <p className="text-emerald-200 text-sm mb-6">Seulement 150 places disponibles · 60 000 FCFA</p>
             <button
               onClick={() => setActiveTab('inscription')}
               className="bg-white text-emerald-800 font-black px-8 py-4 rounded-2xl hover:bg-emerald-50 transition active:scale-95 shadow-xl"

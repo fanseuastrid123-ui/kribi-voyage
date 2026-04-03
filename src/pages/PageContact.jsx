@@ -157,7 +157,7 @@ export default function PageContact() {
                   {[
                     { icon: '📅', val: '14–17 Mai', lbl: 'Dates' },
                     { icon: '💰', val: '60K FCFA', lbl: 'Tarif' },
-                    { icon: '👥', val: '100 places', lbl: 'Capacité' },
+                    { icon: '👥', val: '150 places', lbl: 'Capacité' },
                   ].map((s) => (
                     <div key={s.lbl} className="bg-white/10 backdrop-blur rounded-xl p-3">
                       <span className="text-xl block mb-1">{s.icon}</span>
