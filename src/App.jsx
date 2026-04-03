@@ -7,7 +7,7 @@ import PageProgramme from './pages/PageProgramme'
 import PageContact from './pages/PageContact'
 import './index.css'
 
-const TOTAL_SPOTS = 100
+const TOTAL_SPOTS = 150
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('accueil')
